@@ -1,0 +1,25 @@
+{
+  "name": "mocha-browser-test",
+  "version": "1.0.0",
+  "description": "Mocha浏览器测试入门教程",
+  "main": "add.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha-phantomjs --path /usr/local/bin/phantomjs ./test/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiwenlau/mocha-browser-test.git"
+  },
+  "keywords": [
+    "mocha"
+  ],
+  "author": "Fundebug",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiwenlau/mocha-browser-test/issues"
+  },
+  "homepage": "https://github.com/kiwenlau/mocha-browser-test#readme"
+}
